@@ -10,6 +10,8 @@ public class RubberDuck extends Duck {
         System.out.printf("I'm a rubber duck, and my name is %s%n", name);
     }
     
-    // PROBLEM: This rubber duck can fly because it inherits from Duck
-    // but rubber ducks shouldn't be able to fly!
+    @Override
+    public void fly() {
+        // Rubber ducks shouldn't be able to fly, so this will do nothing.
+    }
 }
