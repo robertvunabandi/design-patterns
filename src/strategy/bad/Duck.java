@@ -18,4 +18,8 @@ public class Duck {
     public void display() {
         System.out.printf("I'm a duck, and my name is %s%n", name);
     }
+    
+    public void fly() {
+        System.out.println("Flying!");
+    }
 }
