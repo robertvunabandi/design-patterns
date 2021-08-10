@@ -1,1 +1,3 @@
 - This leads to a LOT of duplicate code, which is obviously bad
+- To know whether a duck can fly, we must check its implementation,
+  which is bad.
