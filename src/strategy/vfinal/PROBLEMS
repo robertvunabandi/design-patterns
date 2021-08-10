@@ -1,0 +1,3 @@
+- While this is much better, We're still writing to an
+  implementation in the constructors (e..g, by calling
+  `new FlyNoWay()`).
