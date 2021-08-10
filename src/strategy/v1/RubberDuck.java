@@ -1,6 +1,6 @@
 package strategy.v1;
 
-public class RubberDuck implements IDuck, IFlyable {
+public class RubberDuck implements IDuck, IQuackable {
     private final String name;
 
     public RubberDuck(String name) {
@@ -11,9 +11,10 @@ public class RubberDuck implements IDuck, IFlyable {
     public void swim() {
         System.out.println("Swim!");
     }
-
-    public void fly() {
-        System.out.println("Flying!");
+    
+    @Override
+    public void quack() {
+        System.out.println("Squeak!");
     }
 
     @Override

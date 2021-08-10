@@ -6,6 +6,11 @@ public class RubberDuck extends Duck {
     }
     
     @Override
+    public void quack() {
+        System.out.println("Squeak!");
+    }
+    
+    @Override
     public void display() {
         System.out.printf("I'm a rubber duck, and my name is %s%n", name);
     }
