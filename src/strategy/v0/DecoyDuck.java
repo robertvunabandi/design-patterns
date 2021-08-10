@@ -1,4 +1,4 @@
-package strategy.bad;
+package strategy.v0;
 
 public class DecoyDuck extends Duck {
     public DecoyDuck(String name) {

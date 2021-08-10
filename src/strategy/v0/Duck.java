@@ -1,4 +1,4 @@
-package strategy.bad;
+package strategy.v0;
 
 public class Duck {
     protected final String name;

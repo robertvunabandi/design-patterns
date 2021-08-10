@@ -17,10 +17,10 @@ book [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patte
      try out different things from the various design patterns.
 - **`<root>/src/<design-pattern-name>`**
    - This contains an example of the design pattern.
-   - The subfolders will always be a `/bad` (how code can be written
-     in a bad way) and a `/good` (how that same code can be refactored
-     using the design pattern). These codes will mostly be coming from
-     the book.
+   - The subfolders will be of the form `v0`, `v1`, ..., `vn` and then a
+     `vfinal`. The `vfinal` will contain the version that uses the design
+     pattern in its most proper form. Everything else will be iterations
+     of the same idea which will all have issues.
    - There will also be a `README` linking to the definition of that
      design pattern.
 

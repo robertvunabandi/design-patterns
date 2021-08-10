@@ -1,4 +1,4 @@
-package strategy.bad;
+package strategy.v0;
 
 public class RubberDuck extends Duck {
     public RubberDuck(String name) {
