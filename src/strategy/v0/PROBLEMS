@@ -1,0 +1,4 @@
+- Code is duplicated across subclasses
+- Runtime behavior changes are difficult
+- It's hard to gain knowledge of all duck behaviors
+- Changes can unintentionally affect other ducks
