@@ -1,4 +1,4 @@
-package strategy.vfinal;
+package strategy.vfinal.ducks;
 
 import strategy.vfinal.flying.FlyNoWay;
 import strategy.vfinal.quacking.MuteQuack;
